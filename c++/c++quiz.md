@@ -1003,7 +1003,11 @@ center.x = 9;
 center.y = 3;
 ```
 
+<<<<<<< HEAD
 - [ ] A
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp
  struct coord{
     int x;
@@ -1011,21 +1015,33 @@ center.y = 3;
 };
 typedef struct coord coord;
 ```
+<<<<<<< HEAD
 - [ ] B
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp
  typedef struct coord{
     int x;
     int y;
 } coord;
 ```
+<<<<<<< HEAD
 - [x] C
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp 
 typedef struct coord{
     int x;
     int y;
 };
 ```
+<<<<<<< HEAD
 - [ ] D
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp 
 typedef struct{
     int x;
@@ -1040,34 +1056,57 @@ typedef struct{
 std::array<uint32_t, 50> my_array;
 ```
 
+<<<<<<< HEAD
 - [x] A
+=======
+#### Q60. You want to sort my_array, declared below.  Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
+
+```cpp
+std::array<uint32_t, 50> my_array;
+```
+
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp
 std::sort(my_array.begin(), my_array.end(),
     [](uint32_t a, uint32_t b) {
         return a < b;
     })
 ```
+<<<<<<< HEAD
 - [ ] B
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp
 lambda(uint32_t a, uint32_t b){
     return a < b;
 }
 std::sort(my_array.begin(), my_array.end(), lambda);
 ```
+<<<<<<< HEAD
 - [ ] C
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp 
 std::sort(my_array.begin(), my_array.end(),
     lambda(uint32_t a, uint32_t b){
         return a < b;
     })
 ```
+<<<<<<< HEAD
 - [ ] D
+=======
+- [ ] 
+>>>>>>> adding a new question and fixed the spacing on #59
 ```cpp 
 lambda(uint32_t a, uint32_t b){
     return a < b;
 }
 std::sort(my_array.begin(), my_array.end(), &lambda);
 ```
+<<<<<<< HEAD
 [Reference](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
 
 #### Q61. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
@@ -1194,3 +1233,5 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] 1/2 = 0 
 - [x] 1/2 = 0.000000
 - [ ] 1/2 = 0.5 
+=======
+>>>>>>> adding a new question and fixed the spacing on #59
