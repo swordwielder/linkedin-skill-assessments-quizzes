@@ -1004,10 +1004,14 @@ center.y = 3;
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] A
 =======
 - [ ] 
 >>>>>>> adding a new question and fixed the spacing on #59
+=======
+- [ ] A
+>>>>>>> master
 ```cpp
  struct coord{
     int x;
@@ -1016,10 +1020,14 @@ center.y = 3;
 typedef struct coord coord;
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] B
 =======
 - [ ] 
 >>>>>>> adding a new question and fixed the spacing on #59
+=======
+- [ ] B
+>>>>>>> master
 ```cpp
  typedef struct coord{
     int x;
@@ -1027,10 +1035,14 @@ typedef struct coord coord;
 } coord;
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [x] C
 =======
 - [ ] 
 >>>>>>> adding a new question and fixed the spacing on #59
+=======
+- [ ] C
+>>>>>>> master
 ```cpp 
 typedef struct coord{
     int x;
@@ -1038,10 +1050,14 @@ typedef struct coord{
 };
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] D
 =======
 - [ ] 
 >>>>>>> adding a new question and fixed the spacing on #59
+=======
+- [ ] D
+>>>>>>> master
 ```cpp 
 typedef struct{
     int x;
@@ -1202,6 +1218,7 @@ void std::mutex::lock(){
 
 ### Q.69 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
 
+<<<<<<< HEAD
 - [ ]	
 ```
   c = buff[16];
@@ -1235,3 +1252,39 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] 1/2 = 0.5 
 =======
 >>>>>>> adding a new question and fixed the spacing on #59
+=======
+#### Q60. You want to sort my_array, declared below.  Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
+
+```cpp
+std::array<uint32_t, 50> my_array;
+```
+
+- [ ] A
+```cpp
+std::sort(my_array.begin(), my_array.end(),
+    [](uint32_t a, uint32_t b) {
+        return a < b;
+    })
+```
+- [ ] B
+```cpp
+lambda(uint32_t a, uint32_t b){
+    return a < b;
+}
+std::sort(my_array.begin(), my_array.end(), lambda);
+```
+- [ ] C
+```cpp 
+std::sort(my_array.begin(), my_array.end(),
+    lambda(uint32_t a, uint32_t b){
+        return a < b;
+    })
+```
+- [ ] D
+```cpp 
+lambda(uint32_t a, uint32_t b){
+    return a < b;
+}
+std::sort(my_array.begin(), my_array.end(), &lambda);
+```
+>>>>>>> master
